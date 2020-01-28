@@ -4,94 +4,68 @@ import android.content.Intent
 import android.os.AsyncTask
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v7.app.AlertDialog
-import android.widget.TextView
+import android.util.Log
+import android.util.Patterns
 import android.widget.Toast
-import com.google.gson.Gson
-import kotlinx.android.synthetic.main.activity_main.*
+import com.example.vicky.androidui.AsyncTask.SignUpRequest
 import kotlinx.android.synthetic.main.activity_sign_up.*
-import okhttp3.*
+import okhttp3.FormBody
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.Response
 import org.json.JSONObject
 
 class SignUpActivity : AppCompatActivity() {
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
 
-        validate.setOnClickListener{
 
+        validate.setOnClickListener {
+
+            val email = email__signUp.text.toString().trim()
+            val password = password__signUp.text.toString().trim()
+            val verif_password = password2__signUp.text.toString().trim()
+            val username = username_signUp.text.toString().trim()
+            val resulmsg = ""
+
+            if (username.isEmpty()) {
+                username_signUp.error = "username required"
+                username_signUp.requestFocus()
+                return@setOnClickListener
+            }
+            if (password.isEmpty() || password.length < 6) {
+                password__signUp.error = "6 char password required"
+                password__signUp.requestFocus()
+                return@setOnClickListener
+            }
+
+            if (verif_password.isEmpty() || verif_password != password) {
+                password2__signUp.error = "wrong password"
+                password2__signUp.requestFocus()
+                return@setOnClickListener
+            }
+
+            if (email.isEmpty()) {
+                email__signUp.error = "email required"
+                email__signUp.requestFocus()
+                return@setOnClickListener
+            }
+
+            if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+                email__signUp.error = "valid email required"
+                email__signUp.requestFocus()
+                return@setOnClickListener
+            }
 
             if (username_signUp.text.toString().isNotEmpty() && password__signUp.text.toString().isNotEmpty() && password2__signUp.text.toString().isNotEmpty() && email__signUp.text.toString().isNotEmpty()) {
-                makePostRequst(this@SignUpActivity, username_signUp.text.toString(), password__signUp.text.toString(), email__signUp.text.toString()).execute()
-                startActivity(Intent(this@SignUpActivity, MainActivity::class.java))
+                SignUpRequest(username_signUp.text.toString(), password__signUp.text.toString(), email__signUp.text.toString()).execute()
             }
-
-            else
-                Toast.makeText(this@SignUpActivity,"Please fill in all fields", Toast.LENGTH_SHORT).show()
         }
+        //else
+        //  Toast.makeText(this@SignUpActivity,"Please fill in all fields", Toast.LENGTH_SHORT).show()
     }
-    class makePostRequst(var activity: SignUpActivity, var username: String, var password: String, var name: String) : AsyncTask<Void, Void, String>() {
-
-        override fun doInBackground(vararg params: Void?): String {
-            val client = OkHttpClient()
-            val requestBody = MultipartBody.Builder()
-                    .setType(MultipartBody.FORM)
-                    .addFormDataPart("username", username)
-                    .addFormDataPart("password", password)
-                    .addFormDataPart("name", name)
-                    .build()
-            val request = Request.Builder()
-                    .url("http://3000/api/signup")
-                    .post(requestBody)
-                    .build()
-            val response = client.newCall(request).execute()
-            return response.body()!!.string()
-        }
-
-        override fun onPostExecute(result: String?) {
-            if (result != null) {
-                val obj = JSONObject(result)
-                postResult = obj.getString("message")
-                makeJSONRequst(activity, username, password, name).execute()
-            }
-            super.onPostExecute(result)
-        }
-
-    }
-
-    class makeJSONRequst(var activity: SignUpActivity, var username: String, var password: String, var name: String) : AsyncTask<Void, Void, String>() {
-
-        override fun doInBackground(vararg params: Void?): String {
-            val JSON = MediaType.parse("application/json; charset=utf-8")
-            val client = OkHttpClient()
-            val requestObject = com.example.vicky.androidui.Model.Request()
-            requestObject.username = username
-            requestObject.password = password
-            requestObject.name = name
-            val body = RequestBody.create(JSON, Gson().toJson(requestObject))
-            val request = Request.Builder()
-                    .url("http://3000/api/signup")
-                    .post(body)
-                    .build()
-            val response = client.newCall(request).execute()
-            return response.body()!!.string()
-        }
-
-        override fun onPostExecute(result: String?) {
-            if (result != null) {
-                val obj = JSONObject(result)
-                jsonResult = obj.getString("message")
-            }
-            val dialog = AlertDialog.Builder(activity)
-            val view = activity.layoutInflater.inflate(R.layout.dialog_result, null)
-            dialog.setView(view)
-            view.findViewById<TextView>(R.id.json_result).text = jsonResult
-            view.findViewById<TextView>(R.id.post_result).text = postResult
-            dialog.show()
-            super.onPostExecute(result)
-        }
-    }
-
-
 }

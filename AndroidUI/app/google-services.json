@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "907931093795",
+    "firebase_url": "https://androidui-af4fb.firebaseio.com",
+    "project_id": "androidui-af4fb",
+    "storage_bucket": "androidui-af4fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907931093795:android:22daa064251705548f5a96",
+        "android_client_info": {
+          "package_name": "com.example.vicky.androidui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907931093795-ut5r29sonur1n62b01vhman55g97sm49.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vicky.androidui",
+            "certificate_hash": "02b76e0a35cfd9b6654f08e1661a0d75ae9b0873"
+          }
+        },
+        {
+          "client_id": "907931093795-mto2ed9m6lgi8gl95ral4esb8q6hvr7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU8ZH3MGH33fnDYINEY-M6rYMWRCN7H0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907931093795-mto2ed9m6lgi8gl95ral4esb8q6hvr7u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
