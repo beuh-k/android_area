@@ -7,6 +7,5 @@ class Request(){
 
     var username = ""
     var password = ""
-    var name = ""
 
 }
