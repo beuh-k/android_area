@@ -54,7 +54,7 @@ class SignUpActivity : AppCompatActivity() {
                 emailField.requestFocus()
                 return@setOnClickListener
             }
-            RetrofitClient.instance.createUser(email, password, username)
+            RetrofitClient.instance.createUser(username, password, email)
                 .enqueue(object : Callback<DefaultResponse> {
                     override fun onFailure(call: Call<DefaultResponse>, t: Throwable) {
                         t.printStackTrace()
