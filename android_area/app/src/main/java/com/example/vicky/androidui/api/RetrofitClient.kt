@@ -1,6 +1,9 @@
 package com.example.vicky.androidui.api
 
+import android.util.Log
 import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.RequestBody
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -13,16 +16,25 @@ object RetrofitClient {
    // private const val BASE_URL = "http://34.234.166.115/"
     private const val BASE_URL = "https://lanoyade.com/"
 
-    private val okHttpClient = OkHttpClient.Builder()
-        .addInterceptor(HttpLoggingInterceptor().apply { setLevel(HttpLoggingInterceptor.Level.BODY) })
 
-        .addInterceptor { chain ->
-            val original = chain.request()
-            val requestBuilder = original.newBuilder()
+    private val okHttpClient = OkHttpClient.Builder()
+        .addInterceptor(HttpLoggingInterceptor().apply { setLevel(HttpLoggingInterceptor.Level.BODY)
+        })
+
+
+    .addInterceptor { chain ->
+        val original = chain.request()
+        Log.d("debug", original.toString())
+        var string = original.toString()
+       // string = string.replace("%26", "&")
+       // string = string.replace("%3D", "=")*/
+
+
+        val requestBuilder = original.newBuilder()
                 .method(original.method, original.body)
-            val request = requestBuilder.build()
+        val request = requestBuilder.build()
             chain.proceed(request)
-        }
+    }
             .connectTimeout(20, TimeUnit.SECONDS)
             .writeTimeout(20, TimeUnit.SECONDS)
             .readTimeout(30, TimeUnit.SECONDS)

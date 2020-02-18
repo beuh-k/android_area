@@ -19,6 +19,9 @@ import retrofit2.Callback
 import retrofit2.Response
 
 class SignUpActivity : AppCompatActivity() {
+    private val preferences = MyPreferences()
+    var test = ""
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -71,6 +74,7 @@ class SignUpActivity : AppCompatActivity() {
                             startActivity(Intent(this@SignUpActivity, SignInActivity::class.java))
                         }
                         else {
+                            //val test = preferences.getData(this@SignUpActivity)
                             Toast.makeText(applicationContext, "Email or UserName already use", Toast.LENGTH_LONG).show()
                         }
                     }

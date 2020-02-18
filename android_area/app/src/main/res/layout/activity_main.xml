@@ -22,7 +22,7 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/edit_text_background"
             android:scaleType="fitCenter"
-            android:src="@drawable/code_android" />
+            android:src="@drawable/logo_white" />
 
 
         <EditText
@@ -93,8 +93,8 @@
 
         <com.facebook.login.widget.LoginButton
             android:id="@+id/login_button_facebook"
-            android:layout_width="500dp"
-            android:layout_height="400dp"
+            android:layout_width="355dp"
+            android:layout_height="70dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="30dp" />
