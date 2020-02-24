@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:2:1-48:12
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:2:1-48:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.2.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/3874708570574c8a3558006d1cb2a5c1/navigation-ui-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.2.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/e8fa54a94738b4d0bc4d702f0e3d0355/jetified-navigation-ui-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.0.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/946093075d78eb9f74f58a48d61f96ab/material-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -70,31 +70,31 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /home/beuh-c/.gradle/cach
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/b49a3cb0a0186e54d18812f26e6e4ce2/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/c9eb4efc2103a05ad6203fd4d78919fe/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/a7ac5d9832a55e02f327cca94b1b2adb/print-1.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:2:1-48:12
 	package
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:6:5-42
-		INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml
-		INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:6:5-42
+		INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml
+		INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:2:1-48:12
-		INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml
+		INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:2:1-48:12
+		INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:2:1-48:12
-		INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml
+		INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:2:1-48:12
+		INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:8:5-67
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:8:5-67
 	android:name
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:8:22-64
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:8:22-64
 application
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:10:5-46:19
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:10:5-46:19
 MERGED from [com.google.android.material:material:1.0.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/946093075d78eb9f74f58a48d61f96ab/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/946093075d78eb9f74f58a48d61f96ab/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/0c0a5e4c1a6489327a7d2792e9501479/facebook-android-sdk-4.42.0/AndroidManifest.xml:28:5-29:19
@@ -130,98 +130,98 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/beuh-
 	android:supportsRtl
 		ADDED from [com.facebook.android:facebook-android-sdk:4.42.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/0c0a5e4c1a6489327a7d2792e9501479/facebook-android-sdk-4.42.0/AndroidManifest.xml:28:18-44
 	android:label
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:15:9-41
 	android:appComponentFactory
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:12:9-49
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:12:9-49
 		REJECTED from [androidx.core:core:1.1.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/df2ac4fe6b88cbdd1c862077d2fdf1ec/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:roundIcon
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:16:9-50
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:16:9-50
 	android:icon
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:14:9-39
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:14:9-39
 	android:allowBackup
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:18:9-40
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:18:9-40
 	tools:replace
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:11:9-52
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:11:9-52
 activity#com.example.vicky.androidui.activities.SignUpActivity
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:19:9-63
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:19:9-63
 	android:name
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:19:19-60
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:19:19-60
 activity#com.example.vicky.androidui.activities.Home
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:20:9-53
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:20:9-53
 	android:name
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:20:19-50
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:20:19-50
 activity#com.example.vicky.androidui.activities.LogInFacebookActivity
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:21:9-70
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:21:9-70
 	android:name
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:21:19-67
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:21:19-67
 activity#com.example.vicky.androidui.activities.HomeAuthentification
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:23:9-68
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:23:9-68
 	android:name
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:23:19-66
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:23:19-66
 activity#com.example.vicky.androidui.activities.SignInActivity
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:24:9-31:20
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:24:9-31:20
 	android:name
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:24:19-60
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:24:19-60
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:26:13-30:29
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:27:17-69
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:27:25-66
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:29:17-77
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:29:27-74
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:29:27-74
 activity#com.facebook.FacebookActivity
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:33:9-35:48
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:33:9-35:48
 MERGED from [com.facebook.android:facebook-common:4.42.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/43d63ef71a4819433b99e169bb652bf0/jetified-facebook-common-4.42.0/AndroidManifest.xml:29:9-32:66
 MERGED from [com.facebook.android:facebook-common:4.42.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/43d63ef71a4819433b99e169bb652bf0/jetified-facebook-common-4.42.0/AndroidManifest.xml:29:9-32:66
 	android:label
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:35:13-45
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:35:13-45
 	android:configChanges
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:34:13-97
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:34:13-97
 	android:theme
 		ADDED from [com.facebook.android:facebook-common:4.42.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/43d63ef71a4819433b99e169bb652bf0/jetified-facebook-common-4.42.0/AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:33:19-63
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:33:19-63
 activity#com.facebook.CustomTabActivity
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:35:49-42:20
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:35:49-42:20
 MERGED from [com.facebook.android:facebook-common:4.42.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/43d63ef71a4819433b99e169bb652bf0/jetified-facebook-common-4.42.0/AndroidManifest.xml:34:9-67
 MERGED from [com.facebook.android:facebook-common:4.42.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/43d63ef71a4819433b99e169bb652bf0/jetified-facebook-common-4.42.0/AndroidManifest.xml:34:9-67
 	android:exported
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:36:13-36
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:36:13-36
 	android:name
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:35:59-104
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:35:59-104
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:36:38-41:25
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:36:38-41:25
 action#android.intent.action.VIEW
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:37:9-61
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:37:9-61
 	android:name
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:37:17-58
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:37:17-58
 category#android.intent.category.DEFAULT
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:38:9-68
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:38:9-68
 	android:name
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:38:19-65
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:38:19-65
 category#android.intent.category.BROWSABLE
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:39:9-70
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:39:9-70
 	android:name
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:39:19-67
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:39:19-67
 data
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:40:9-67
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:40:9-67
 	android:scheme
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:40:15-64
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:40:15-64
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:44:9-45:54
+ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:44:9-45:54
 	android:value
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:45:13-52
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:45:13-52
 	android:name
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:44:20-65
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml:44:20-65
 uses-sdk
-INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml
-INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml
+INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml
+INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml
 MERGED from [androidx.navigation:navigation-ui-ktx:2.2.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/3874708570574c8a3558006d1cb2a5c1/navigation-ui-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui-ktx:2.2.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/3874708570574c8a3558006d1cb2a5c1/navigation-ui-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.2.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/e8fa54a94738b4d0bc4d702f0e3d0355/jetified-navigation-ui-2.2.0/AndroidManifest.xml:20:5-22:41
@@ -354,16 +354,16 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/b
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/c9eb4efc2103a05ad6203fd4d78919fe/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/a7ac5d9832a55e02f327cca94b1b2adb/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/a7ac5d9832a55e02f327cca94b1b2adb/print-1.0.0/AndroidManifest.xml:20:5-44
-INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml
-INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml
+INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml
+INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml
-		INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml
+		INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml
+		INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml
-		ADDED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml
-		INJECTED from /home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml
+		INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml
+		ADDED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml
+		INJECTED from /home/beuh-c/android_area/app/src/main/AndroidManifest.xml
 activity#com.facebook.CustomTabMainActivity
 ADDED from [com.facebook.android:facebook-common:4.42.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/43d63ef71a4819433b99e169bb652bf0/jetified-facebook-common-4.42.0/AndroidManifest.xml:33:9-71
 	android:name

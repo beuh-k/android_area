@@ -6,99 +6,99 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml
+8-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="26" />
-9-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml
+9-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:8:5-67
-11-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:8:22-64
+11-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:8:5-67
+11-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:8:22-64
 12
 13    <application
-13-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:10:5-46:19
+13-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:10:5-46:19
 14        android:allowBackup="true"
-14-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:13:9-35
+14-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:13:9-35
 15        android:appComponentFactory="someString"
-15-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:12:9-49
+15-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:12:9-49
 16        android:debuggable="true"
 17        android:icon="@mipmap/ic_logo"
-17-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:14:9-39
+17-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:14:9-39
 18        android:label="@string/app_name"
-18-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:15:9-41
+18-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:15:9-41
 19        android:roundIcon="@mipmap/ic_logo_round"
-19-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:16:9-50
+19-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:16:9-50
 20        android:supportsRtl="true"
 20-->[com.facebook.android:facebook-android-sdk:4.42.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/0c0a5e4c1a6489327a7d2792e9501479/facebook-android-sdk-4.42.0/AndroidManifest.xml:28:18-44
 21        android:testOnly="true"
 22        android:theme="@style/AppTheme" >
-22-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:18:9-40
+22-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:18:9-40
 23        <activity android:name="com.example.vicky.androidui.activities.SignUpActivity" />
-23-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:19:9-63
-23-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:19:19-60
+23-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:19:9-63
+23-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:19:19-60
 24        <activity android:name="com.example.vicky.androidui.activities.Home" />
-24-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:20:9-53
-24-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:20:19-50
+24-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:20:9-53
+24-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:20:19-50
 25        <activity android:name="com.example.vicky.androidui.activities.LogInFacebookActivity" />
-25-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:21:9-70
-25-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:21:19-67
+25-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:21:9-70
+25-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:21:19-67
 26        <activity android:name="com.example.vicky.androidui.activities.HomeAuthentification" />
-26-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:23:9-68
-26-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:23:19-66
+26-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:23:9-68
+26-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:23:19-66
 27        <activity android:name="com.example.vicky.androidui.activities.SignInActivity" >
-27-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:24:9-31:20
-27-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:24:19-60
+27-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:24:9-31:20
+27-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:24:19-60
 28            <intent-filter>
-28-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:26:13-30:29
+28-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:26:13-30:29
 29                <action android:name="android.intent.action.MAIN" />
-29-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:27:17-69
-29-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:27:25-66
+29-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:27:17-69
+29-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:27:25-66
 30
 31                <category android:name="android.intent.category.LAUNCHER" />
-31-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:29:17-77
-31-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:29:27-74
+31-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:29:17-77
+31-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:29:27-74
 32            </intent-filter>
 33        </activity>
 34        <activity
-34-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:33:9-35:48
+34-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:33:9-35:48
 35            android:name="com.facebook.FacebookActivity"
-35-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:33:19-63
+35-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:33:19-63
 36            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-36-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:34:13-97
+36-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:34:13-97
 37            android:label="@string/app_name"
-37-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:35:13-45
+37-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:35:13-45
 38            android:theme="@style/com_facebook_activity_theme" />
 38-->[com.facebook.android:facebook-common:4.42.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/43d63ef71a4819433b99e169bb652bf0/jetified-facebook-common-4.42.0/AndroidManifest.xml:32:13-63
 39        <activity
-39-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:35:49-42:20
+39-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:35:49-42:20
 40            android:name="com.facebook.CustomTabActivity"
-40-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:35:59-104
+40-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:35:59-104
 41            android:exported="true" >
-41-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:36:13-36
+41-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:36:13-36
 42            <intent-filter>
-42-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:36:38-41:25
+42-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:36:38-41:25
 43                <action android:name="android.intent.action.VIEW" />
-43-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:37:9-61
-43-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:37:17-58
+43-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:37:9-61
+43-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:37:17-58
 44
 45                <category android:name="android.intent.category.DEFAULT" />
-45-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:38:9-68
-45-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:38:19-65
+45-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:38:9-68
+45-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:38:19-65
 46                <category android:name="android.intent.category.BROWSABLE" />
-46-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:39:9-70
-46-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:39:19-67
+46-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:39:9-70
+46-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:39:19-67
 47
 48                <data android:scheme="@string/fb_login_protocol_scheme" />
-48-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:40:9-67
-48-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:40:15-64
+48-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:40:9-67
+48-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:40:15-64
 49            </intent-filter>
 50        </activity>
 51
 52        <meta-data
-52-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:44:9-45:54
+52-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:44:9-45:54
 53            android:name="com.facebook.sdk.ApplicationId"
-53-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:44:20-65
+53-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:44:20-65
 54            android:value="@string/facebook_app_id" />
-54-->/home/beuh-c/DEV_area_2019/android_area/app/src/main/AndroidManifest.xml:45:13-52
+54-->/home/beuh-c/android_area/app/src/main/AndroidManifest.xml:45:13-52
 55
 56        <activity android:name="com.facebook.CustomTabMainActivity" />
 56-->[com.facebook.android:facebook-common:4.42.0] /home/beuh-c/.gradle/caches/transforms-2/files-2.1/43d63ef71a4819433b99e169bb652bf0/jetified-facebook-common-4.42.0/AndroidManifest.xml:33:9-71

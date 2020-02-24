@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/beuh-c/DEV_area_2019/android_area/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "outputFile": "/home/beuh-c/android_area/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
                     "source": "/home/beuh-c/.gradle/caches/transforms-2/files-2.1/946093075d78eb9f74f58a48d61f96ab/material-1.0.0/res/values-large-v4/values-large-v4.xml",

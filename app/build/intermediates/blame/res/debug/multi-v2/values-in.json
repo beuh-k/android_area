@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/beuh-c/DEV_area_2019/android_area/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml",
+            "outputFile": "/home/beuh-c/android_area/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml",
             "map": [
                 {
                     "source": "/home/beuh-c/.gradle/caches/transforms-2/files-2.1/e8fa54a94738b4d0bc4d702f0e3d0355/jetified-navigation-ui-2.2.0/res/values-in/values-in.xml",
